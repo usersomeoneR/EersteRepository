@@ -17,7 +17,7 @@
 			Header("Location: index.php");
 		}else echo "OEPS er ging iets mis!!";
 	}
-	
+	//yES
 	
 	
 	
