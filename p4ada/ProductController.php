@@ -14,7 +14,8 @@ class ProductController
 			  VALUES ('$artikelnaam', $prijs)";
 	
 		$stm = $this->conn->prepare($query);
-		if($stm->execute())
+		if($stm->execute())//Wserhjerherj
+			
 		{
 			//Een verwijzing maken naar een andere pagina
 			Header("Location: index.php");

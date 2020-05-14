@@ -8,7 +8,7 @@
 		$artikelnummer = $_GET['artnummer'];
 		$artnaam = $_POST['txtArtikel'];
 		$prijs = $_POST['txtPrijs'];
-		//WaawW
+		//Fiets
 		$query = "UPDATE producten SET artikelnaam = '$artnaam', 
 									   prijs = $prijs 
 									   WHERE artikelnummer = $artikelnummer";
@@ -17,7 +17,7 @@
 			Header("Location: index.php");
 		}else echo "OEPS er ging iets mis!!";
 	}
-	
+	//yES
 	
 	
 	
