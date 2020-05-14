@@ -8,7 +8,7 @@
 		$artikelnummer = $_GET['artnummer'];
 		$artnaam = $_POST['txtArtikel'];
 		$prijs = $_POST['txtPrijs'];
-		
+		//WaawW
 		$query = "UPDATE producten SET artikelnaam = '$artnaam', 
 									   prijs = $prijs 
 									   WHERE artikelnummer = $artikelnummer";
