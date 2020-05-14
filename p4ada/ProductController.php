@@ -7,7 +7,7 @@ class ProductController
 		include ("config.php");
 		$this->conn = $conn;
 	}
-	
+	//wAJAHEEWHEW
 	public function opslaanProduct($artikelnaam, $prijs){
 		
 		$query = "INSERT INTO producten (artikelnaam, prijs) 
